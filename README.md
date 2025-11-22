@@ -119,3 +119,8 @@ http://localhost:3000
          | PUT    | `/students/{id}` | Update student    |
          | DELETE | `/students/{id}` | Delete student    |
 
+# 📸 Screenshots
+
+* Home Page
+
+![Home Page](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/screenshot.png)
