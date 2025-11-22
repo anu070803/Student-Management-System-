@@ -1,0 +1,31 @@
+/* Add Student css */
+
+.add-student {
+  width: 80%;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.add-student h2 {
+  text-align: center;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.add-student form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.add-student input {
+  width: 220px;
+}
+
+.add-student button {
+  padding: 12px 30px;
+}
+
