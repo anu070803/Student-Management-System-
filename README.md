@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 📘 Student Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application built using React (Frontend) and Spring Boot (Backend) to manage student details such as name, email, and age.
+This project allows adding, viewing, updating, and deleting student records.
 
-## Available Scripts
+# 🚀 Features
+🎨 Frontend (React)
 
-In the project directory, you can run:
+* Add new students
 
-### `npm start`
+* View all students
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Edit existing student details
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Delete student
 
-### `npm test`
+* Clean UI with components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* API integration with backend
 
-### `npm run build`
+🖥 Backend (Spring Boot)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* REST APIs for CRUD operations
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Uses Spring Data JPA
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Connects with MySQL database
 
-### `npm run eject`
+* CORS enabled for communication with React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 🛠 Tech Stack
+Frontend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* React.js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* JavaScript
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Axios
 
-## Learn More
+* CSS 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Backend
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Java
 
-### Code Splitting
+* Spring Boot
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Spring Web
 
-### Analyzing the Bundle Size
+* Spring Data JPA
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* MySQL Database
 
-### Making a Progressive Web App
+# 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Student-Management-System/
+    │
+    ├── student-frontend/        # React Frontend
+    │   ├── src/
+    │   ├── public/
+    │   └── package.json
+    │
+    └── student-backend/         # Spring Boot Backend
+    ├── src/main/java/
+    ├── src/main/resources/
+    └── pom.xml
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ # 🔧 How to Run the Project
 
-### Deployment
+▶️ 1. Run Backend (Spring Boot)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Configure Database (MySQL)
 
-### `npm run build` fails to minify
+* Create a database:
+  
+                           CREATE DATABASE studentdb;
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Update application.properties:
+
+      spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
+      spring.datasource.username=YOUR_USERNAME
+      spring.datasource.password=YOUR_PASSWORD
+      spring.jpa.hibernate.ddl-auto=update
+
+* Start backend
+
+      mvn spring-boot:run
+
+
+* Your backend will run at:
+http://localhost:8080/students
+
+▶️ 2. Run Frontend (React)
+
+* Move to frontend folder:
+
+       cd student-frontend
+
+* Install dependencies:
+
+      npm install
+
+* Start React app:
+
+      npm start
+
+* React runs at:
+http://localhost:3000
+
+
+# 🔗 API Endpoints
+
+         | Method | Endpoint         | Description       |
+         | ------ | ---------------- | ----------------- |
+         | GET    | `/students`      | Get all students  |
+         | GET    | `/students/{id}` | Get student by ID |
+         | POST   | `/students`      | Add new student   |
+         | PUT    | `/students/{id}` | Update student    |
+         | DELETE | `/students/{id}` | Delete student    |
+
