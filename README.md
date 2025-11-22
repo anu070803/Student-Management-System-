@@ -121,13 +121,45 @@ http://localhost:3000
 
 # 📸 Screenshots
 
-* Home Page
-
+* 🏠 Home Page
+  
+Shows the main dashboard of the Student Management System.
 
 
 ![Home Page](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20140113.png)
 
-* View Student List
+* 📋View Student List
 
+Displays all registered students in a table format.
 
 ![View Student List](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20140142.png)
+
+* ➕ Add New Student Popup
+
+Popup form used for adding new student details.
+
+![View Student List](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20140202.png)
+
+* 💾 Save Student Popup
+
+Confirmation popup that appears when saving updated details.
+
+![View Student List](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20140251.png)
+
+* ✏️ Edit Student Popup
+
+Popup window used for editing existing student information.
+
+![View Student List](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20143120.png)
+
+ * ✅ Updated Student Popup
+
+Success message displayed after updating student details.
+
+![View Student List](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20143100.png)
+
+* ⚠️ Delete Confirmation Alert
+
+Alert message asking for confirmation before deleting a student.
+
+![View Student List](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20140322.png)
