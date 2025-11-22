@@ -123,4 +123,7 @@ http://localhost:3000
 
 * Home Page
 
-![Home Page](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot 2025-11-22 140113.png)
+
+
+![Home Page](https://raw.githubusercontent.com/anu070803/Student-Management-System-/main/Screenshot%202025-11-22%20140113.png)
+
